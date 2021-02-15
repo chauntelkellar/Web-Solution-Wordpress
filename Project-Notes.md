@@ -97,7 +97,7 @@ sudo vi /etc/fstab
 /dev/webdata-vg/logs-lv /var/log ext4     defaults,nofail   0   0
 ```
 
-22. Verified setup by running df -h, output looks like this:
+22. Verified setup by running df -h, output looks like this: <br>
 ![Images/df-h.png](Images/df-h.png)
 
 ## Step 2 - Prepare the Database server
