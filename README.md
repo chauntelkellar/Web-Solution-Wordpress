@@ -18,4 +18,4 @@ Three-tier Architecture is a client-server software architecture pattern that is
 2. An EC2 Linux Server as a web server for wordpress
 3. An EC2 Linux server as a database (DB) server
 
-> Checkout the project notes [Project-Notes.md]
+> [Checkout the project notes](Project-Notes.md)
