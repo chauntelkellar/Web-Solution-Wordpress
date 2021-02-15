@@ -98,7 +98,7 @@ sudo vi /etc/fstab
 ```
 
 22. Verified setup by running df -h, output looks like this:
-![link image]
+![Images/df-h.png](Images/df-h.png)
 
 ## Step 2 - Prepare the Database server
 I launched a second RedHat EC2 instance that has a role of ‘DB Server’. I repeated the same steps as for the Web Server, but instead of `app-lv` I created `db-lv` and mounted it to `/db` directory instead of `/var/www/html/`.
@@ -161,8 +161,8 @@ sudo setsebool -P httpd_can_network_connect=1
 
 4. Test accessing from my browser the link to my WordPress `http://<Web-Server-Public-IP-Address>/wordpress/`
 5. Filled out DB credentials
-![image]
+![Images/db-details.png](Images/db-details.png)
 
 6. Saw message confirming Wordpress has sucessfully conntected to remote MYSQL database
-![image]
+![Images/connected.png](Images/connected.png)
 
